@@ -1,0 +1,98 @@
+1. Métodos de Arrays
+Array.prototype.push() - Añade uno o más elementos al final de un array.
+Array.prototype.pop() - Elimina el último elemento de un array.
+Array.prototype.shift() - Elimina el primer elemento de un array.
+Array.prototype.unshift() - Añade uno o más elementos al inicio de un array.
+Array.prototype.concat() - Combina dos o más arrays.
+Array.prototype.slice() - Devuelve una copia de una parte del array.
+Array.prototype.splice() - Añade, elimina o reemplaza elementos de un array.
+Array.prototype.indexOf() - Devuelve el primer índice en el que un elemento se encuentra en el array.
+Array.prototype.lastIndexOf() - Devuelve el último índice en el que un elemento se encuentra en el array.
+Array.prototype.forEach() - Ejecuta una función para cada elemento del array.
+Array.prototype.map() - Crea un nuevo array con los resultados de la llamada a una función en cada elemento.
+Array.prototype.filter() - Crea un nuevo array con todos los elementos que pasen una prueba.
+Array.prototype.reduce() - Aplica una función a un acumulador y a cada valor del array (de izquierda a derecha) para reducirlo a un único valor.
+Array.prototype.reduceRight() - Igual que reduce() pero de derecha a izquierda.
+Array.prototype.find() - Devuelve el primer elemento que cumple con una condición.
+Array.prototype.findIndex() - Devuelve el índice del primer elemento que cumple con una condición.
+Array.prototype.every() - Verifica si todos los elementos en el array pasan una prueba.
+Array.prototype.some() - Verifica si al menos un elemento en el array pasa una prueba.
+Array.prototype.join() - Une todos los elementos de un array en una cadena.
+Array.prototype.sort() - Ordena los elementos de un array.
+Array.prototype.reverse() - Invierte el orden de los elementos en un array.
+Array.prototype.flat() - Aplana un array anidado.
+Array.prototype.includes() - Verifica si un array contiene un determinado elemento.
+
+2. Métodos de Strings
+String.prototype.charAt() - Devuelve el carácter en una posición específica.
+String.prototype.charCodeAt() - Devuelve el código Unicode del carácter en una posición específica.
+String.prototype.concat() - Combina dos o más cadenas de texto.
+String.prototype.includes() - Verifica si una cadena contiene otra cadena.
+String.prototype.endsWith() - Verifica si una cadena termina con otra cadena.
+String.prototype.startsWith() - Verifica si una cadena empieza con otra cadena.
+String.prototype.indexOf() - Devuelve el índice de la primera aparición de una cadena en otra.
+String.prototype.lastIndexOf() - Devuelve el índice de la última aparición de una cadena en otra.
+String.prototype.match() - Busca coincidencias con una expresión regular.
+String.prototype.replace() - Reemplaza una subcadena con otra.
+String.prototype.search() - Busca una subcadena que coincida con una expresión regular.
+String.prototype.slice() - Extrae una sección de una cadena.
+String.prototype.split() - Divide una cadena en un array de subcadenas.
+String.prototype.substring() - Devuelve una subcadena entre dos índices.
+String.prototype.toLowerCase() - Convierte una cadena a minúsculas.
+String.prototype.toUpperCase() - Convierte una cadena a mayúsculas.
+String.prototype.trim() - Elimina los espacios en blanco de ambos extremos de una cadena.
+String.prototype.padStart() - Rellena el inicio de la cadena con una cadena de relleno hasta alcanzar una longitud.
+String.prototype.padEnd() - Rellena el final de la cadena con una cadena de relleno hasta alcanzar una longitud.
+
+3. Métodos de Objetos
+Object.keys() - Devuelve un array de las claves propias enumerables de un objeto.
+Object.values() - Devuelve un array de los valores de las claves propias enumerables de un objeto.
+Object.entries() - Devuelve un array de los pares clave-valor de las claves propias enumerables de un objeto.
+Object.assign() - Copia los valores de todas las propiedades enumerables de uno o más objetos de origen a un objeto destino.
+Object.create() - Crea un nuevo objeto con el prototipo de un objeto existente.
+Object.freeze() - Congela un objeto, impidiendo que se le añadan o modifiquen propiedades.
+Object.seal() - Sella un objeto, evitando la adición de nuevas propiedades pero permitiendo la modificación de las existentes.
+Object.getPrototypeOf() - Devuelve el prototipo de un objeto.
+Object.setPrototypeOf() - Establece el prototipo de un objeto.
+Object.is() - Compara dos valores para determinar si son iguales.
+Object.defineProperty() - Define una nueva propiedad directamente en un objeto, o modifica una existente.
+Object.defineProperties() - Define varias propiedades nuevas o modifica las existentes en un objeto.
+Object.hasOwnProperty() - Verifica si el objeto tiene una propiedad como su propia propiedad.
+
+4. Métodos de Números
+Number.prototype.toFixed() - Formatea un número utilizando notación de punto fijo.
+Number.prototype.toExponential() - Formatea un número utilizando notación exponencial.
+Number.prototype.toPrecision() - Formatea un número con una longitud de dígitos específica.
+Number.prototype.toString() - Devuelve una cadena representando el número en una base numérica especificada.
+Number.isFinite() - Verifica si el valor pasado es un número finito.
+Number.isInteger() - Verifica si el valor pasado es un entero.
+Number.isNaN() - Verifica si el valor pasado es NaN.
+Number.parseFloat() - Convierte una cadena en un número de punto flotante.
+Number.parseInt() - Convierte una cadena en un número entero.
+
+5. Métodos de Funciones
+Function.prototype.apply() - Llama a una función con un valor this dado y argumentos proporcionados como un array.
+Function.prototype.call() - Llama a una función con un valor this dado y argumentos individuales.
+Function.prototype.bind() - Crea una nueva función que, cuando es llamada, tiene su this establecido a un valor proporcionado.
+
+6. Métodos de Math
+Math.abs() - Devuelve el valor absoluto de un número.
+Math.ceil() - Redondea un número hacia arriba al entero más cercano.
+Math.floor() - Redondea un número hacia abajo al entero más cercano.
+Math.round() - Redondea un número al entero más cercano.
+Math.max() - Devuelve el mayor de los números dados.
+Math.min() - Devuelve el menor de los números dados.
+Math.random() - Devuelve un número pseudoaleatorio entre 0 (inclusive) y 1 (exclusive).
+Math.sqrt() - Devuelve la raíz cuadrada de un número.
+Math.pow() - Devuelve la base elevada a la potencia de exponente (Math.pow(base, exponente)).
+Math.trunc() - Devuelve la parte entera de un número, eliminando cualquier dígito decimal.
+
+7. Métodos de Promesas
+Promise.then() - Maneja el resultado exitoso de una promesa.
+Promise.catch() - Maneja el error de una promesa.
+Promise.finally() - Ejecuta un código una vez que la promesa se ha resuelto o rechazado.
+Promise.all() - Espera a que todas las promesas en un array se resuelvan o alguna sea rechazada.
+Promise.race() - Devuelve la primera promesa que se resuelva o rechace.
+8. Métodos de JSON
+JSON.parse() - Convierte una cadena JSON en un objeto JavaScript.
+JSON.stringify() - Convierte un objeto JavaScript en una cadena JSON.
